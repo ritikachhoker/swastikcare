@@ -13,7 +13,7 @@ const app  =express();
 const port = process.env.PORT || 4000
 connectDB();
 connectCloudinary()
- const bcrypt = require('bcryptjs')
+
 // middlewares
 app.use(express.json())
 app.use(cors())
